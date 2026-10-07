@@ -3,6 +3,29 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  button-bg: #e0e0e0;
+  button-text: #333333;
+}
+
+.dark-mode {
+  color: white;
+  background-color: black;
+  button-bg: white;
+  button-text: black;
+}
+
+.theme-toggle-btn {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid #cccccc;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  opacity: 0.9;
 }
 
 .logo {
